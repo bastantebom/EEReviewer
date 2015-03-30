@@ -5,6 +5,7 @@ session_start();
 //Created by: Jayson V. Ilagan
 //Software Developer: Ivoclar Vivadent Inc.
 //Copyright: 2012
+
 if(!isset($_SESSION['username']) || !isset($_SESSION['password'])){
    header("location:index.php");
    exit();
